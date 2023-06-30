@@ -43,7 +43,7 @@
                                 @endif>Arsip Rent</a>
                             <a href="/arsip-return" @if (request()->route()->uri == 'arsip-return') class='active'
                                 @endif>Arsip Return</a>
-                            <a href="/logout">Logout</a>
+                            <a href="/logout"><i class="fas fa-power-off"></i>Logout</a>
                         @else
                             <a href="/profile" @if (request()->route()->uri == 'profile') class='active'
                                 @endif>Profile</a>
@@ -64,5 +64,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous">
+</script>
+
 </body>
 </html>
